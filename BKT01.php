@@ -24,9 +24,9 @@
     echo"<br>";
     echo "2. ";
     $products = array(
-        $arr1 = array("name"=>"Sữa", "price"=> 24000, "quantity"=>10),
-        $arr1 = array("name"=>"Muối", "price"=> 4000, "quantity"=>10),
-        $arr1 = array("name"=>"Mỳ", "price"=> 3000, "quantity"=>10)
+      array("name"=>"Sữa", "price"=> 24000, "quantity"=>10),
+      array("name"=>"Muối", "price"=> 4000, "quantity"=>10),
+      array("name"=>"Mỳ", "price"=> 3000, "quantity"=>10)
     );
     function displayInfo($array){
         echo "Thông tin sản phẩm: <br>";
